@@ -1,0 +1,56 @@
+.vid-card-wrapper {
+    width: 205px;
+    height: 250px;
+    border: 1px solid limegreen;
+    margin: 20px;
+    position: relative;
+}
+.video-title,
+.video-url,
+.video-description {
+    width: 100%;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+.video-title {
+    height: 50px;
+    background: rgba(0,0,0,0.3);
+    display:flex;
+    align-items:center;
+}
+.video-url {
+    height: 150px;
+    background: rgba(0,0,0,0.1); 
+}
+.video-description {
+    height: 50px;
+    background: rgba(0,0,0,0.3);
+}
+.del-video-button {
+    width: 30px;
+    height: 30px;
+    background:white;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    border-radius: 50%;
+    &:hover {
+       background: black;
+        color: white; 
+    }
+}
+.update-video-button {
+    width: 30px;
+    height: 30px;
+    background:white;
+    position: absolute;
+    top: -15px;
+    right: 40px;
+    border-radius: 50%;
+    &:hover {
+       background: black;
+        color: white; 
+    }
+}

@@ -1,0 +1,28 @@
+@api =  http://localhost:4000
+
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "title": "MERN Stack",
+    "url": "https://www.youtube.com/watch?v=_RZ-T6TxP7w&list=PLLa_DrEXlafgfrmSLS1m6_55_ndxYSW19&index=11",
+    "description": "learn MERN Stack."
+}
+
+###
+GET {{api}}/videos
+
+###
+GET {{api}}/videos/608a95b193afba0a78ffa5e6
+
+###
+DELETE {{api}}/videos/609043f826ae1c0cdc422fb0
+
+###
+PUT {{api}}/videos/608a9d92f4dae01be03267fe
+Content-Type: application/json
+
+{
+    "title": "Learn MERN Stack in 2 Hours"
+}
+
