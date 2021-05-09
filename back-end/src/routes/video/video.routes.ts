@@ -13,4 +13,4 @@ router.put('/videos/:id', videoControl.updateVideo);
 
 router.delete('/videos/:id', videoControl.deleteVideo);
 
-export default router;
+export default router
